@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "t3kysadamedici",
+    "description": "T3 Kurumsal Yönetim Sistemi'nin sistem dili İngilizce olsa bile Türkçe açılmasını sağlayarak korkunç İngilizce çevirisinden sizi korur.",
+    "version": "0.1.0",
+    "permissions": [
+        "declarativeNetRequest"
+    ],
+    "host_permissions": [
+        "*://*.t3kys.com/*"
+    ],
+    "declarative_net_request": {
+        "rule_resources": [
+            {
+                "id": "ruleset_1",
+                "enabled": true,
+                "path": "rules.json"
+            }
+        ]
+    }
+}

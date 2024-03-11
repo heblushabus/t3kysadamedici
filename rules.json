@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "priority": 1,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {
+                    "header": "Accept-Language",
+                    "operation": "set",
+                    "value": "tr-TR,tr;q=0.9"
+                }
+            ]
+        },
+        "condition": {
+            "resourceTypes": [
+                "main_frame",
+                "sub_frame"
+            ]
+        }
+    }
+]
